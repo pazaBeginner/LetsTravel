@@ -99,3 +99,7 @@ document.querySelector('.container-slider').appendChild(destinationSlider);
 // destinationSlider.addEventListener('mouseover', () => {
 //   destinationSlider.style.animationPlayState = 'paused';
 // })
+
+const currentYear = new Date().getFullYear();
+const footerTeksYear = document.querySelector('.year');
+footerTeksYear.innerHTML = currentYear;
